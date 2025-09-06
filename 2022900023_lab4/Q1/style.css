@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b09b9b;
+    transition: background-color 0.5s ease;
+}
+
+#card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    transition: background-color 0.5s ease;
+}
+
+#greeting-text {
+    font-size: 2em;
+    margin-top: 0;
+    color: #333;
+    transition: color 0.5s ease;
+}
+
+#card-message {
+    font-size: 1em;
+    color: #666;
+}
+
+#personalize-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#personalize-btn:hover {
+    background-color: #0056b3;
+}
